@@ -2,7 +2,7 @@ import socket
 import sys, os
 import numpy as np
 import time
-HOST = "192.168.0.104"  # Direccion de la interfaz de loopback estándar (localhost)
+HOST = "172.100.72.1"  # Direccion de la interfaz de loopback estándar (localhost)
 PORT = 65432  # Puerto que usa el cliente  (los puertos sin provilegios son > 1023)
 buffer_size = 1024
 
