@@ -176,6 +176,7 @@ def main():
             data = Client_conn.recv(buffer_size)
             fin = time.time()
             Client_conn.sendall(bytes(str(fin-inicio), "utf-8"))
+            Client_conn.close()
 
 
 if __name__ == '__main__':
